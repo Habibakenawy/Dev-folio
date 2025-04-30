@@ -3,6 +3,7 @@
     --Amfont:"Amatic SC", sans-serif;
     --Infont:"Inter", sans-serif;
 }
+
 nav,header{
     font-family: var(--Sysfont);
 }
@@ -128,4 +129,75 @@ nav,header{
     98% { content: "Ph|"; }
     99% { content: "P|"; }
     100% { content: "|"; }
+}
+
+.services .logo{
+    width:7rem;
+    height: 7rem;
+    border-radius:50%;
+    border: 10px solid #0078FF;
+}
+
+
+.about{
+    height: 100vh;
+}
+.services{
+    height:110vh;
+}
+
+
+.services .inner:hover .logo i{
+color:white;
+
+}
+.services .inner:hover .logo{
+    background-color:#0078FF;
+    border:10px solid #CDE1F8;
+}
+
+.services .logo i{
+    transition: all 0.5s;
+}
+.services.logo{
+    transition: all 0.5s;
+}
+
+
+.numbers{
+    height: 50vh;
+    background-image: linear-gradient(rgba(5, 89, 184, 0.7), rgba(5, 89, 184, 0.7)), url('../assets/images/counters-bg.jpg');
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.numbers .item .logo{
+    width:5rem;
+    height: 5rem;
+    border-radius:50%;
+    border: 9px solid #B0C1D5;
+}
+
+
+@media only screen and (max-width: 765px){
+    .about{
+         height:150vh;    
+    }
+    .about .info{
+        margin-top:10rem ;
+    }
+    .services{
+        height:180vh;
+        padding-top: 7rem
+    }
+    .numbers{
+        height:90vh;
+    }
+    .numbers .number{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
 }
