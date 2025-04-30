@@ -1,0 +1,131 @@
+:root{
+    --Sysfont: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --Amfont:"Amatic SC", sans-serif;
+    --Infont:"Inter", sans-serif;
+}
+nav,header{
+    font-family: var(--Sysfont);
+}
+
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/hero-bg.jpg");
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+}
+.white-color{
+    background-color: white;
+    color: white;
+}
+
+.anime::after {
+    content: "";
+    color: white; /* Match text-white from header */
+    animation: word 20s infinite;
+}
+
+
+
+@keyframes word {
+    0% { content: "D|"; }
+    1% { content: "De|"; }
+    2% { content: "Des|"; }
+    3% { content: "Desi|"; }
+    4% { content: "Desig|"; }
+    5% { content: "Design|"; }
+    6% { content: "Designe|"; }
+    7% { content: "Designer|"; }
+    8% { content: "Designer"; }
+    9% { content: "Designer|"; }
+    10% { content: "Designer"; }
+    11% { content: "Designer|"; }
+    12% { content: "Designer"; }
+    13% { content: "Designer|"; }
+    14% { content: "Designe|"; }
+    15% { content: "Design|"; }
+    16% { content: "Desig|"; }
+    17% { content: "Desi|"; }
+    18% { content: "Des|"; }
+    19% { content: "De|"; }
+    20% { content: "D|"; }
+    21% { content: "|"; }
+    22% { content: "D|"; }
+    23% { content: "De|"; }
+    24% { content: "Dev|"; }
+    25% { content: "Deve|"; }
+    26% { content: "Devel|"; }
+    27% { content: "Develo|"; }
+    28% { content: "Develop|"; }
+    29% { content: "Develope|"; }
+    30% { content: "Developer|"; }
+    31% { content: "Developer"; }
+    32% { content: "Developer|"; }
+    33% { content: "Developer"; }
+    34% { content: "Developer|"; }
+    35% { content: "Developer"; }
+    36% { content: "Developer|"; }
+    37% { content: "Develope|"; }
+    38% { content: "Develop|"; }
+    39% { content: "Develo|"; }
+    40% { content: "Devel|"; }
+    41% { content: "Deve|"; }
+    42% { content: "Dev|"; }
+    43% { content: "De|"; }
+    44% { content: "D|"; }
+    45% { content: "|"; }
+    46% { content: "F|"; }
+    47% { content: "Fr|"; }
+    48% { content: "Fre|"; }
+    49% { content: "Free|"; }
+    50% { content: "Freel|"; }
+    51% { content: "Freela|"; }
+    52% { content: "Freelan|"; }
+    53% { content: "Freelanc|"; }
+    54% { content: "Freelance|"; }
+    55% { content: "Freelancer|"; }
+    56% { content: "Freelancer"; }
+    57% { content: "Freelancer|"; }
+    58% { content: "Freelancer"; }
+    59% { content: "Freelancer|"; }
+    60% { content: "Freelancer"; }
+    61% { content: "Freelancer|"; }
+    62% { content: "Freelance|"; }
+    63% { content: "Freelanc|"; }
+    64% { content: "Freelan|"; }
+    65% { content: "Freela|"; }
+    66% { content: "Freel|"; }
+    67% { content: "Free|"; }
+    68% { content: "Fre|"; }
+    69% { content: "Fr|"; }
+    70% { content: "F|"; }
+    71% { content: "|"; }
+    72% { content: "P|"; }
+    73% { content: "Ph|"; }
+    74% { content: "Pho|"; }
+    75% { content: "Phot|"; }
+    76% { content: "Photo|"; }
+    77% { content: "Photog|"; }
+    78% { content: "Photogr|"; }
+    79% { content: "Photogra|"; }
+    80% { content: "Photograp|"; }
+    81% { content: "Photograph|"; }
+    82% { content: "Photographe|"; }
+    83% { content: "Photographer|"; }
+    84% { content: "Photographer"; }
+    85% { content: "Photographer|"; }
+    86% { content: "Photographer"; }
+    87% { content: "Photographer|"; }
+    88% { content: "Photographer"; }
+    89% { content: "Photographe|"; }
+    90% { content: "Photograph|"; }
+    91% { content: "Photograp|"; }
+    92% { content: "Photogra|"; }
+    93% { content: "Photogr|"; }
+    94% { content: "Photog|"; }
+    95% { content: "Photo|"; }
+    96% { content: "Phot|"; }
+    97% { content: "Pho|"; }
+    98% { content: "Ph|"; }
+    99% { content: "P|"; }
+    100% { content: "|"; }
+}
