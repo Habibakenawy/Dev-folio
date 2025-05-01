@@ -180,6 +180,75 @@ color:white;
 }
 
 
+.portofolio{
+    height: 130vh;
+    padding-top: 7rem;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.plus{
+    width:3rem;
+    height: 3rem;
+    border-radius:50%;
+    border: 5px solid #0078FF; 
+    color: #0078FF;
+}
+
+.portofolio .image{
+overflow: hidden;
+}
+
+.portofolio img{
+    transition: transform 0.5s ease;
+}
+
+
+.portofolio .inner:hover img{
+    transform: scale(1.2);
+}
+
+.slider{
+    height: 70vh;
+    background-image: linear-gradient(rgba(5, 89, 184, 0.7), rgba(5, 89, 184, 0.7)), url('../assets/images/overlay-bg.jpg');
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover; 
+}
+
+.blog{
+    height: 100vh;
+    padding-top: 7rem;
+}
+
+.contact p i{
+    color: #0078FF;
+}
+
+
+
+
+
+.copyright{
+    background-color: #1A55A5;
+  height: 15vh; 
+}
+
+
+
+
+
+
+
+
+.contact{
+    height: 100vh;
+    background-image: linear-gradient(rgba(5, 89, 184, 0.7), rgba(5, 89, 184, 0.7)), url('../assets/images/overlay-bg.jpg');
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover; 
+}
 @media only screen and (max-width: 765px){
     .about{
          height:150vh;    
@@ -198,6 +267,11 @@ color:white;
       display: flex;
       justify-content: center;
       flex-direction: column;
+    }
+
+    .portofolio{
+        height: 260vh;
+        padding-top: 7rem;
     }
 
 }
